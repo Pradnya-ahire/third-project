@@ -126,6 +126,60 @@
       .hero p {
         font-size: 17px;
       }
+
+      /* Services Section */
+.services {
+  padding: 70px 10%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.services h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.service-intro {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 300px;
+  padding: 30px 25px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
     }
   </style>
 </head>
@@ -162,6 +216,46 @@
         attractive, and responsive web experiences.
       </p>
     </section>
+
+
+    <!-- Services Section -->
+<section class="services" id="services">
+  <h2>Our Services</h2>
+  <p class="service-intro">
+    We provide quality services designed to meet your needs.
+  </p>
+
+  <div class="service-container">
+
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>
+        We create responsive and user-friendly websites using
+        modern web technologies.
+      </p>
+      <a href="#">Learn More</a>
+    </div>
+
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>
+        We design clean, attractive, and easy-to-use interfaces
+        for websites and applications.
+      </p>
+      <a href="#">Learn More</a>
+    </div>
+
+    <div class="service-card">
+      <h3>Software Development</h3>
+      <p>
+        We develop reliable software solutions according to
+        business and user requirements.
+      </p>
+      <a href="#">Learn More</a>
+    </div>
+
+  </div>
+</section>
   </main>
 
   <footer>
